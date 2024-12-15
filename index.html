@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoViajar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('form-contato').addEventListener('submit', function(event) {
+        event.preventDefault();
+        document.getElementById('nome').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('mensagem').value = '';
+        alert('Mensagem enviada com sucesso!');
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#dicas">Dicas de Viagem</a></li>
+        <li><a href="#destinos">Destinos Sustentáveis</a></li>
+        <li><a href="#historias">Histórias e Inspirações</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <div class="intro-content">
+      <h1>Bem-vindo ao EcoViajar</h1>
+      <p>Seu guia para explorar o mundo de forma consciente e responsável. Nosso objetivo é promover o turismo sustentável, conectando viajantes a destinos que valorizam a preservação ambiental e a cultura local. Aqui, você encontrará informações sobre lugares incríveis para visitar, atividades que respeitam a natureza e dicas práticas para reduzir sua pegada ecológica durante suas viagens. Junte-se a nós na missão de fazer do turismo uma força positiva para o planeta e para as comunidades que visitamos!</p>
+    </div>
+  </section>
+
+  <section id="dicas">
+    <div class="container">
+      <h2>Algumas Dicas de Viagem</h2><br>
+      <div class="dicas-lista">
+        <div class="dica-card">
+          <h3>Escolha Transportes Ecológicos</h3>
+          <p>O transporte é uma das maiores fontes de emissões de carbono nas viagens. Opte por meios sustentáveis, como transporte público, carona compartilhada ou trens, para reduzir sua pegada ecológica e contribuir para um futuro mais sustentável. Pequenas mudanças nas escolhas de transporte fazem grande diferença!</p>
+        </div>
+        <div class="dica-card">
+          <h3>Hospede-se em Acomodações Sustentáveis</h3>
+          <p>O setor hoteleiro impacta significativamente o meio ambiente. Escolher acomodações com certificações ecológicas garante conforto enquanto respeita a natureza e a cultura local. Ao fazer essa escolha, você incentiva práticas mais sustentáveis em todo o setor.</p>
+        </div>
+        <div class="dica-card">
+          <h3>Minimize o Uso de Plástico</h3>
+          <p>Reduzir o consumo de plástico é simples e eficaz. Use garrafas reutilizáveis e produtos ecológicos para diminuir seu impacto ambiental e promover hábitos mais sustentáveis durante a viagem.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="destinos">
+    <div class="container">
+      <h2>Destinos Sustentáveis</h2><br>
+      <div class="destinos-lista">
+        <div class="destino-item">
+          <img src="imagens/ilhas galapagos.jpg" alt="Vista das Ilhas Galápagos, Equador, com águas cristalinas e fauna local única">
+          <h3>Ilhas Galápagos, Equador</h3>
+          <p>As Ilhas Galápagos são um dos maiores exemplos de preservação ambiental no mundo. Com uma biodiversidade única, o turismo é cuidadosamente regulamentado para evitar impactos negativos no ecossistema.</p>
+          <ul>
+            <li>Práticas Sustentáveis: Turismo controlado, preservação da fauna local.</li>
+            <li>Dicas de Viagem: Use transporte ecológico e respeite as áreas protegidas.</li>
+          </ul>
+        </div>
+        <div class="destino-item">
+          <img src="imagens/amazonia.jpg" alt="Vista da floresta amazônica com uma comunidade local e fauna rica">
+          <h3>Amazônia, Brasil</h3>
+          <p>A Amazônia é um dos maiores ecossistemas do planeta e está sendo preservada por várias iniciativas de turismo sustentável, como o ecoturismo e o turismo de base comunitária.</p>
+          <ul>
+            <li>Práticas Sustentáveis: Apoio a comunidades locais e preservação das florestas.</li>
+            <li>Dicas de Viagem: Escolha operadores locais que priorizem a conservação e ajude a apoiar as comunidades nativas.</li>
+          </ul>
+        </div>
+        <div class="destino-item">
+          <img src="imagens/bhutan.jpg" alt="Paisagem do Butão com montanhas cobertas por neve e terras agrícolas em terraços">
+          <h3>Bhutan</h3>
+          <p>O Reino de Bhutan é um dos países mais ecológicos do mundo. Com políticas de turismo sustentável que limitam o número de visitantes e priorizam a preservação cultural e ambiental, Bhutan é um exemplo de como o turismo pode coexistir com a sustentabilidade.</p>
+          <ul>
+            <li>Práticas Sustentáveis: Turismo de baixo impacto, conservação cultural e ambiental.</li>
+            <li>Dicas de Viagem: Planeje sua visita com antecedência e respeite as tradições locais.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="historias">
+    <div class="container">
+      <h2>Histórias e Inspirações</h2><br>
+      <div class="historias-lista">
+        <div class="historia-card">
+          <h3>Aventura Consciente na Amazônia</h3>
+          <p>Em uma jornada pelo coração da Amazônia, viajantes aprenderam sobre a importância da preservação e o papel vital que as comunidades locais desempenham. A experiência incluiu visitas a tribos indígenas e a prática do ecoturismo.</p>
+        </div>
+        <div class="historia-card">
+          <h3>Viagem ao Butão: O Reino Verde</h3>
+          <p>O Butão é conhecido por suas políticas ecológicas e a ênfase no "Felicidade Interna Bruta". Neste relato, uma viajante compartilha sua experiência em um dos países mais sustentáveis do mundo, com práticas culturais preservadas e políticas ambientais rigorosas.</p>
+        </div>
+        <div class="historia-card">
+          <h3>Reduzindo a Pegada Ecológica na África</h3>
+          <p>Uma expedição pela África, com foco em turismo ecológico e conservação da vida selvagem, mostrou como é possível viajar de forma responsável, minimizando o impacto ambiental e ajudando a financiar iniciativas de preservação.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
+      <h2>Para Mais Informações Entre em Contato</h2><br>
+      <form id="form-contato" method="post" class="form-contato">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Seu email">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" required placeholder="Escreva sua mensagem aqui..."></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 EcoViajar</p> <p>Todos os direitos reservados</p>
+    <p>Email: viajareco@gmail.com | Número: 11940028922</p>
+  </footer>
+</body>
+</html>
